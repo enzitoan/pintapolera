@@ -1,0 +1,5 @@
+#v1
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/wwwwpintapolera/public_html/
+    - /bin/cp -R * $DEPLOYPATH
